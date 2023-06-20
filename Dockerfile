@@ -6,6 +6,6 @@ WORKDIR /usr/src
 
 RUN npm install
 
-EXPOSE 3001
+EXPOSE 8080
 
 CMD ["node","index.js"]
